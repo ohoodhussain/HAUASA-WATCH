@@ -1,0 +1,167 @@
+/*Reset every thing*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1f2937;
+    padding: 2em;
+    margin-bottom: 2em;
+ }
+
+.logo{
+    font-size: 1.5em;
+    color: #f9faf8;
+    margin: 1em;
+}
+h1{
+    font-size: 1em;
+    font-weight: 400;
+   
+    color: #f9faf8;
+
+}
+
+h2{
+    color: #e5e7eb;
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+     margin: 5em;
+}
+.main-header p{
+    font-size: 1em;
+    color: #e5e7eb;
+    line-height: 1.6;
+    
+}
+.main-header button{
+    padding: 0.5em 1em;
+    width: 30%;
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.header-img{
+    display: flex;
+    justify-content: end;
+ 
+}
+.header-img img{
+    max-width: 30%;
+ }
+
+.contanier-logo-nav{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 6em;
+ }
+
+.nav{
+    display: flex;
+   /*  justify-content: right;*/
+}
+ 
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #f9faf8;
+    cursor: pointer;
+    
+}
+
+ul li{
+    /*display: block;*/
+    list-style: none;
+    padding: 1em;
+    float: left;
+     
+    
+}
+.img-tital-contanier{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.featur-h2 { 
+color: #1f2937;
+text-align: center;
+margin-bottom: 2em;
+}
+.Feature-item-contanier img{
+    max-width: 30%;
+    border: #3882f6 solid ;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.Features-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5em;
+}
+
+.Feature-item-contanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Features-container p{
+    line-height: 1.6;
+    max-width:50%;
+}
+
+.testimonial {
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 4em;
+    margin-bottom: 2em;
+}
+.testimonial p {
+    width:  50%;
+    margin: auto;
+    font-size: 1.2em; 
+    font-style: italic;
+}
+
+.call-to-action-contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 2em;
+    margin: auto;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    margin-bottom: 5em;
+    
+}
+.button-call-to-action button{
+    background-color: transparent;
+    border: #e5e7eb solid 2px;
+    border-radius: 5px;
+    padding:0.5em 1em;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 1em;
+}
+ h4{
+    color: #f9faf8;
+    font-size: 12px;
+    font-weight: 200;
+}
